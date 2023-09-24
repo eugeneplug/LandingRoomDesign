@@ -1,0 +1,497 @@
+/*based*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/*navigation*/
+.topNav {
+    max-width: 1440px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background: rgba(244, 244, 244, 1);
+}
+
+.topNavBlock {
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+
+.TopNavInfo {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.TopNavInfo p,
+.TopNavInfo a,
+.TopNavInfo div {
+    margin-left: 25px;
+    color: rgba(170, 170, 170, 1);
+
+}
+
+
+
+.mainNav {
+    max-width: 1440px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: rgba(224, 224, 224, 1) 1px solid;
+}
+
+.mainNav a {
+    margin-left: 100px;
+}
+
+.mainNavLinks {
+    font-weight: 500;
+}
+
+.mainNav i {
+    font-size: 30px;
+}
+
+/*main*/
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main img {
+    max-width: 1327px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.mainText {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.mainText h1 {
+    max-width: 355px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.mainText p {
+    width: 500px;
+    line-height: 40px;
+    font-size: 24px;
+    color: rgba(170, 170, 170, 1);
+}
+
+/*section1*/
+
+.sectionOne {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.sectionOneContent {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sectionOneContentBlock {
+    max-width: 588px;
+    width: 100%;
+    height: 449px;
+    margin: 10px;
+}
+
+.sectionOneContentBlock img {
+    max-width: 588px;
+    width: 100%;
+}
+
+.sectionOneContentBlock p {
+    font-size: 24px;
+}
+
+/*sectionOneBrands*/
+
+.sectionOneBrands h1 {
+    font-weight: 400;
+    font-size: 48px;
+    max-width: 941px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.sectionOneBrands h2 {
+    margin: 0 auto;
+    max-width: 280px;
+    width: 100%;
+    color: rgba(74, 74, 74, 1);
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 25px;
+    text-align: center;
+}
+.sectionOneBrandsBlock {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.sectionOneBrandsBlock img{
+    max-width: 1145px;
+    width: 100%;
+    margin-top: 125px;
+}
+/*sectionTwo*/
+.sectionTwo {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+/*slider*/
+/*slider*/
+.sectionTwoInfo {
+    max-width: 1077px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sectionTwo h1 {
+    line-height: 56.25px;
+    font-weight: 400;
+    font-size: 48px;
+    max-width: 1077px;
+    width: 100%;
+    
+}
+.sectionTwoInfo a {
+    display: block;
+    color: rgba(74, 74, 74, 1);
+    margin-top: 24px;
+    max-width: 107px;
+    width: 100%;
+}
+.sectionTwoText {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    max-width: 1077px;
+    width: 100%;
+}
+.sectionTwoText div {
+    max-width: 323px;
+    width: 100%;
+}
+.sectionTwoText h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.sectionTwoText p {
+    color: rgba(170, 170, 170, 1);
+    line-height: 24px;
+}
+
+/*review*/
+.sectionTwoReview {
+    margin: 0 auto;
+    max-width: 1340px;
+    width: 100%;
+    height: 800px;
+    margin-top: 240px;
+    background-image: url(/img/reviews.svg);
+}
+.sectionTwoReviewBlock {
+    margin-left: 150px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.stars {
+    width: 300px;
+    padding-left: 10px;
+}
+.reviewBlockOne p {
+    color: rgba(255, 255, 255, 1);
+    max-width: 228px;
+    height: 64px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.company1 {
+    max-width: 100px;
+    height: 32px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.reviewBlockTwo {
+    margin-top: 30px;
+}
+.reviewBlockTwo p {
+    color: rgba(255, 255, 255, 1);
+    max-width: 264px;
+    height: 64px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.company2 {
+    width: 100px;
+    height: 42px;
+    padding-left: 10px;
+}
+
+.reviewBlockThree {
+    margin-top: 30px;
+}
+
+.reviewBlockThree p {
+    color: rgba(255, 255, 255, 1);
+    max-width: 200px;
+    height: 64px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.company3 {
+    width: 100px;
+    height: 22px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.sectionTwoReviewBlock a {
+    display: block;
+    letter-spacing: 0.75px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 40px;
+}
+/*sectionThree*/
+
+.sectionThree {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+.sectionThreeText {
+    max-width: 882px;
+    margin: 0 auto;
+}
+.sectionThreeText p {
+    margin: 0 auto;
+    color: rgba(170, 170, 170, 1);
+    font-size: 46px;
+    line-height: 52px;
+    font-weight: 400;
+}
+.sectionThreeText h2 {
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 25px;
+}
+/*sectionThreeContent*/
+
+.sectionThreeContent {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 135px;
+}
+.sectionThreeContentRow1 {
+    display: flex;
+    justify-content: center;
+}
+.sectionThreeContentBlock1 img {
+    max-width: 671px;
+    width: 100%;
+}
+.sectionThreeContentBlock2 {
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sectionThreeContentBlock2 h1 {
+    margin-left: 90px;
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.sectionThreeContentBlock2 p {
+    max-width: 311px;
+    color: rgba(170, 170, 170, 1);
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 90px;
+    margin-top: 27px;
+}
+
+.sectionThreeContentRow2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.sectionThreeContentRow2 img {
+    margin-left: 90px;
+}
+
+.sectionThreeContentRow2 h1, .sectionThreeContentRow2 p {
+    margin-left: 0;
+}
+
+.sectionThreeContentRow3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+/*sectionFour*/
+
+.sectionFour {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.shipingInfo {
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 2px;
+    background: rgba(242, 242, 242, 1);
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shipingInfo h1 {
+    font-weight: 400;
+    font-size: 46px;
+   /* margin-top: 15px;*/
+
+}
+.sector4button {
+    background: rgba(70, 133, 110, 1);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 146px;
+    width: 100%;
+    height: 50px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.terms {
+    display: block;
+    margin-top: 25px;
+    color: rgba(170, 170, 170, 1);
+}
+
+/*footer*/
+
+footer {
+    max-width: 1440px;
+    width: 100%;
+    height: 619px;
+    background-color: rgba(43, 43, 43, 1);
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.footerBlock {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.footerUlOne {
+    margin-top: 19px;
+}
+.footerUlTwo {
+    margin-top: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+.footerAbout a, .footerAbout p, .footerSupport p, .footerSupport a, .footerSupport span, .footerFollowUs i, .footerFollowUs, .footerInput, .footerInput a, .return a{
+    color: white;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkboxMenu p{
+    max-width: 369px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.return a {
+    writing-mode: vertical-rl;
+}
