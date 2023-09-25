@@ -443,6 +443,9 @@ footer {
     width: 100%;
     justify-content:space-between;
 }
+footer li {
+    margin-top: 4px;
+}
 
 .footerUlOne {
     margin-top: 19px;
@@ -450,13 +453,67 @@ footer {
 .footerUlTwo {
     margin-top: 19px;
 }
+.footerUlThree {
+    margin-top: 19px;
+}
+.footerAboutText1 {
+    margin-top: 44px;
+}
+.footerSupportText1 {
+    margin-top: 25px;
+}
+.footerSupportSpan {
+    display: block;
+    margin-top: 25px;
+}
+.footerFollowUsSocial {
+    margin-top: 10px;
+}
+.footerFollowUsSocial i {
+    font-size: 25px;
+    margin: 5px;
+}
 
 
+.footerInputText1 {
+    margin-top: 15px;
+}
+.input1 {
+    max-width: 327px;
+    width: 100%;
+    height: 54px;
+    border-radius: 1px;
+    border: solid 1px rgba(255, 255, 255, 0.4);
+    background-color: rgba(43, 43, 43, 1);
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+.checkboxMenu {
+    display: flex;
+    margin-top: 94px;
+    align-items: flex-start;
+}
+.checkboxMenu p {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 12.89px;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    margin-left: 20px;
 
+    max-width: 369px;
+    width: 100%;
+    
+}
+.footerInput a {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 60px;
 
-
-
-
+    font-size: 14px;
+    letter-spacing: 2.3px;
+}
 
 
 
@@ -477,21 +534,17 @@ footer {
 
 
 
-.checkboxMenu p{
-    max-width: 369px;
-    width: 100%;
+
+
+
+
+
+
+.return {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
-
-
-
-
-
-
-
-
-
-
-
 .return a {
     writing-mode: vertical-rl;
 }
