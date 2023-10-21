@@ -1,0 +1,59 @@
+/*navigation*/
+.topNav {
+    max-width: 1440px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background: rgba(244, 244, 244, 1);
+}
+
+.topNavBlock {
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+
+.TopNavInfo {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.TopNavInfo p,
+.TopNavInfo a,
+.TopNavInfo div {
+    margin-left: 25px;
+    color: rgba(170, 170, 170, 1);
+
+}
+
+
+
+.mainNav {
+    max-width: 1440px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: rgba(224, 224, 224, 1) 1px solid;
+}
+
+.mainNav a {
+    margin-left: 100px;
+}
+
+.mainNavLinks {
+    font-weight: 500;
+}
+
+.mainNav i {
+    font-size: 30px;
+}
+
+@media (max-width:800px) {
+    nav {
+        display: none;
+    }
+}
