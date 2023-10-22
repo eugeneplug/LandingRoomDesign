@@ -66,7 +66,7 @@ footer li {
 }
 .checkboxMenu {
     display: flex;
-    margin-top: 94px;
+    margin-top: 25px;
     align-items: flex-start;
 }
 .checkboxMenu p {
@@ -83,11 +83,12 @@ footer li {
 .footerInput a {
     display: block;
     position: relative;
-    float: right;
-    margin-top: 60px;
+    margin-top: 40px;
 
     font-size: 14px;
     letter-spacing: 2.3px;
+    left: 33px;
+    width: 75px;
 }
 
 
@@ -127,6 +128,9 @@ footer li {
     writing-mode: vertical-rl;
     letter-spacing: 2.4px;
 
+    position: relative;
+    right: 10px;
+
 }
 
 
@@ -152,10 +156,15 @@ footer li {
         flex-direction: column;
         align-items: center;
      }
-     .checkboxMenu {
+     /* .checkboxMenu {
         margin-top: 25px;
-     }
+     } */
      .footerInput a {
         margin-top: 25px;
+     }
+     .return a {
+        writing-mode: unset;
+        padding-bottom: 30px;
+        right: 0;
      }
 }
